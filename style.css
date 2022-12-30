@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: hsla(21, 47%, 44%, 1);
+
+    background: linear-gradient(120deg, hsla(21, 47%, 44%, 1) 0%, hsla(240, 25%, 30%, 1) 33.333333333333336%, hsla(208, 44%, 8%, 1) 66.66666666666667%, hsla(280, 2%, 25%, 1) 100%);
+
+    background: -moz-linear-gradient(120deg, hsla(21, 47%, 44%, 1) 0%, hsla(240, 25%, 30%, 1) 33.333333333333336%, hsla(208, 44%, 8%, 1) 66.66666666666667%, hsla(280, 2%, 25%, 1) 100%);
+
+    background: -webkit-linear-gradient(120deg, hsla(21, 47%, 44%, 1) 0%, hsla(240, 25%, 30%, 1) 33.333333333333336%, hsla(208, 44%, 8%, 1) 66.66666666666667%, hsla(280, 2%, 25%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#a45f3b", endColorstr="#3A3A61", GradientType=1);
+}
+
+
+.container {
+    width: 70vw;
+    height: 120vh;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 120px;
+    font-weight: 1000;
+    color: rgb(158, 210, 253);
+}
+
+button {
+    font-size: 50px;
+    background-color: #A45F3B;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: 600;
+    border: solid 1px #2c190f;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(158, 210, 253);
+}

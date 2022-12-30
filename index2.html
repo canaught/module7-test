@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <script src="./script2.js"></script>
+    <title>JM</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Your IP Address is : <span id="ipaddr"></span></p>
+      <div class="loc_info">
+        <div class="grid_item">lattitude : <span id="lattitude"></span></div>
+        <div class="grid_item">longitude : <span id="longitude"></span></div>
+        <div class="grid_item">City : <span id="city"></span></div>
+        <div class="grid_item">Region : <span id="region"></span></div>
+        <div class="grid_item">Organization : <span id="org"></span></div>
+        <div class="grid_item">Hostname : <span id="hostname">AccioJob</span></div>
+      </div>
+      <div class="map" id="gmap">
+      </div>
+      <div class="timezones">
+        <div>TimeZone: <span id="timezone"></span></div>
+        <div>Date and Time: <span id="dat"></span></div>
+        <div>Pincode : <span id="pincode"></span></div>
+        <div>No. of Post Offices in your Area: <span id="noOfPosts"></span></div>
+      </div>
+      <div class="searchBox">
+        <input
+          type="text"
+          name="searchbox"
+          id="searchBox"
+          placeholder="search a keyword....."
+        />
+        <i><button type="submit" onclick="filter()">Filter</button></i>
+      </div>
+      <div class="posts" id="postList">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
