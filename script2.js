@@ -33,8 +33,10 @@ async function geoInfo() {
 async function loadmap(){
     let coords = jsonresp['loc']
     
+    
+    
     document.getElementById("gmap").innerHTML = `<iframe 
-    src='https://maps.google.com/maps?q= ${coords}&z=16&output=embed'
+    src='https://maps.google.com/maps?q= ${coords}&z=16&output=embed'   //*****though its https, it's giving error on github pages but works fine on local machines
     height="450"
     width="919"
   ></iframe> `;
