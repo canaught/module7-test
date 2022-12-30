@@ -34,7 +34,7 @@ async function loadmap(){
     let coords = jsonresp['loc']
     
     document.getElementById("gmap").innerHTML = `<iframe 
-    src='http://maps.google.com/maps?q= ${coords}&z=16&output=embed'
+    src='https://maps.google.com/maps?q= ${coords}&z=16&output=embed'
     height="450"
     width="919"
   ></iframe> `;
